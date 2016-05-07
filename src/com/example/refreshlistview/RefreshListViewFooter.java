@@ -30,6 +30,10 @@ public class RefreshListViewFooter extends LinearLayout{
 	bar.setVisibility(View.VISIBLE);
 	
   }
+  public void normal() {
+		mtv.setVisibility(View.VISIBLE);
+		bar.setVisibility(View.GONE);
+	}
   public void setState(int state){
 	 mtv.setVisibility(View.INVISIBLE);
 	 bar.setVisibility(View.INVISIBLE);
